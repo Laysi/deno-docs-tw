@@ -21,18 +21,6 @@ Deno只有單一的可執行檔，並且該執行檔可以運行任何Deno程式
 Deno使用與瀏覽器相容的加載模組(URL)。  
 除此之外，對於過去使用Python與Bash的腳本，Deno將是一個優秀的替代品。
 
-Deno aims to be a productive and secure scripting environment for the modern
-programmer.
-
-Deno will always be distributed as a single executable. Given a URL to a Deno
-program, it is runnable with nothing more than
-[the ~15 megabyte zipped executable](https://github.com/denoland/deno/releases).
-Deno explicitly takes on the role of both runtime and package manager. It uses a
-standard browser-compatible protocol for loading modules: URLs.
-
-Among other things, Deno is a great replacement for utility scripts that may
-have been historically written with bash or python.
-
 ## Goals
 
 - Only ship a single executable (`deno`).
