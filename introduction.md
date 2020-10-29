@@ -1,25 +1,25 @@
-# Introduction
+# 介紹
 
-Deno is a JavaScript/TypeScript runtime with secure defaults and a great
-developer experience.
+Deno 是一個具有預設安全及有良好開發體驗的 JavaScript/TypeScript 運行環境。
 
-It's built on V8, Rust, and Tokio.
+Deno 基於V8、Rust、Tokio上。
 
-## Feature Highlights
+## 功能亮點
 
-- Secure by default. No file, network, or environment access (unless explicitly
-  enabled).
-- Supports TypeScript out of the box.
-- Ships a single executable (`deno`).
-- Has built-in utilities like a dependency inspector (`deno info`) and a code
-  formatter (`deno fmt`).
-- Has
-  [a set of reviewed (audited) standard
-  modules](https://github.com/denoland/deno/tree/master/std) that are guaranteed
-  to work with Deno.
-- Scripts can be bundled into a single JavaScript file.
+- 預設安全性。除非啟用否則無法訪問檔案、網路或運行環境
+- 原生支援Typescript
+- 單一的可執行檔 (`deno`)
+- 內建實用工具，例如 依賴檢查工具 (`deno info`)及程式碼格式化工具 (`deno fmt`)
+- 擁有一套經過審查且[保證與Deno相容的標準模組](https://github.com/denoland/deno/tree/master/std)
+- 腳本可以被單獨封裝到一個JavaScript檔案
 
-## Philosophy
+## 哲學
+
+Deno的目標是為現代程式設計師提供高效能且安全的腳本環境。  
+Deno只有單一的可執行檔，並且該執行檔可以運行任何Deno程式，
+包含了運行環境及套件管理工具，只要一個URL，就能運行[解壓縮後不超過15MB](https://github.com/denoland/deno/releases)的Deno可執行檔。  
+Deno使用與瀏覽器相容的加載模組(URL)。  
+除此之外，對於過去使用Python與Bash的腳本，Deno將是一個優秀的替代品。
 
 Deno aims to be a productive and secure scripting environment for the modern
 programmer.
